@@ -19,12 +19,15 @@
                 <label for="number" id="number-label">Number</label>
                 <input id="number" type="number" placeholder="number" min="99999999999" max="999999999999">
                 <select name="dropdown" id="dropdown">
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                    <input type="radio" name="persontype" value="catperson">Cat Person
-                    <input type="radio" name="persontype" value="dogperson">Dog Person
-                    <input type="checkbox" value="introvert">Introvert
-                    <input type="checkbox" value="extrovert">Extrovert
+                    <label for="gender">Gender</label>
+                    <option id="gender" value="male">Male</option>
+                    <option id="gender" value="female">Female</option>
+                    <div class="radio-group">
+                        <input id="choose" type="radio" name="persontype" value="catperson">Cat Person
+                        <input id="choose" type="radio" name="persontype" value="dogperson">Dog Person
+                    </div> 
+                    <input id="choose" type="checkbox" value="introvert">Introvert
+                    <input id="choose" type="checkbox" value="extrovert">Extrovert
                 </select>
                 <textarea name="extrainfo" id="extrainfo"></textarea>
                 <button id="submit" type="submit">SUBMIT</button>

@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    margin: 0;
+    margin: 15px;
 }
 #title{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -16,4 +16,19 @@ label{
 }
 input{
     display: block;
+    text-align: center;
+    margin: auto;
+}
+textarea{
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+input #email{
+    display: block;
+    text-align: center;
+}
+.radio-group{
+    display: flex;
+    flex-direction: column;
 }
